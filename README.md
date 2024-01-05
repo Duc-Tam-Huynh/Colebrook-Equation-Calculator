@@ -1,4 +1,4 @@
-"# Colebrook-Equation-Calculator" \n
+"# Colebrook-Equation-Calculator" 
 
 Demo: https://duc-tam-huynh.github.io/Colebrook-Equation-Calculator/
 
