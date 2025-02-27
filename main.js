@@ -1,6 +1,6 @@
 function colebrook(f_guess, Re, epsilon, D) {
     const tol = 1e-6;
-    const max_iter = 100;
+    const max_iter = 1000000000;
     let f = f_guess;
 
     for (let i = 0; i < max_iter; i++) {
