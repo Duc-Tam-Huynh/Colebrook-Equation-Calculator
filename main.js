@@ -5,8 +5,9 @@ function colebrook(f_guess, Re, epsilon, D) {
 
     for (let i = 0; i < max_iter; i++) {
         const term1 = -2.0 * Math.log10(epsilon / (3.7 * D) + 2.51 / (Re * Math.sqrt(f)));
-        const term2 = 1 / Math.sqrt(f);
-        const f_new = 1 / (term1 ** 2 * term2);
+        //const term2 = 1 / Math.sqrt(f);
+        //const f_new = 1 / (term1 ** 2 * term2);
+        const f_new = 1 / (term1 ** 2);
 
         if (Math.abs(f_new - f) < tol) {
             return f_new;
